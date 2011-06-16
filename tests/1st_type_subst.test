@@ -1,0 +1,8 @@
+%
+% Testing integration with 1st type substitution
+%
+int(1/(1-x^2)^0.5, x, R), norm(R, RR).
+.
+int((1-x^2)^0.5, x, R), norm(R, RR).
+.
+

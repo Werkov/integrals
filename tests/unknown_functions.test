@@ -1,0 +1,10 @@
+%
+% Testing integration of functions for those primitive function
+% is unknown for the program
+%
+int(asin(x), x, R), norm(R, RR).
+.
+int(tan(x), x, R), norm(R, RR).
+.
+int(ln(x), x, R), norm(R, RR).
+.

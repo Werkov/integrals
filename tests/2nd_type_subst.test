@@ -1,0 +1,5 @@
+%
+% Testing integration of functions using 2nd type substitution
+%
+int(2*x*sin(3*x^2+1), x, R), norm(R, RR).
+.

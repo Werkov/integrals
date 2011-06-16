@@ -1,0 +1,19 @@
+Symbolic integration in Prolog
+==============================
+
+Usage
+-----
+
+Run:
+swipl -s main.pl  (main.pl is in src directory)
+
+Calculation:
+int(+Function, +Variable, -Result).
+	int(sin(x), x, -cos(x)).
+
+der(+Function, +Variable, -Result).
+	der(sin(x), x, cos(x)).
+
+norm(+Function, -Result).
+	norm(5*x*x^4*4+ln(x), 20*x^5+ln(x)).
+
